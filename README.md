@@ -1,4 +1,4 @@
-# Base256-to-Braille
+# Text-Base256-To-Braille-Encryption
 Convert text to unicode Braille (or any other characters) using modified baseN.py from uetchy
 (https://github.com/uetchy/baseN)
 * You can disable the auto copy by # all the the code related to pyperclip. 
@@ -17,6 +17,18 @@ Output string copied to clipboard
 -----DECODE-----
 Please input text to decode: ⡴⡨⡩⡳⠠⡩⡳⠠⡡⠠⡴⡥⡳⡴
 this is a test
+Output string copied to clipboard
+Press enter to continue, input to exit: 
+-----ENCODE-----
+Please input text to encode: これはテストです。
+Base256 (Map Size: 256) (Map Name: base256Braille.map)
+Result: ⣣⢁⢓⣣⢂⢌⣣⢁⢯⣣⢃⢆⣣⢂⢹⣣⢃⢈⣣⢁⢧⣣⢁⢙⣣⢀⢂
+Lenth: 27
+Verify success
+Output string copied to clipboard
+-----DECODE-----
+Please input text to decode: ⣣⢁⢓⣣⢂⢌⣣⢁⢯⣣⢃⢆⣣⢂⢹⣣⢃⢈⣣⢁⢧⣣⢁⢙⣣⢀⢂
+これはテストです。
 Output string copied to clipboard
 Press enter to continue, input to exit: exit
 
