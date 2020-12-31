@@ -71,7 +71,7 @@ while exit == "":
         if map_name == "base64bagua.map":
             enc_result = enc_result.replace('=','\u262F')
         print("Result: " + enc_result)
-        print("Lenth: " + str(len(enc_result)))
+        print("Length: " + str(len(enc_result)))
         check_result = enc_result
         for character in check_result:
             if character not in encodeMap:
